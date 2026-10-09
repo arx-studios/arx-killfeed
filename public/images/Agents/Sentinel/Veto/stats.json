@@ -1,0 +1,43 @@
+{
+  "uuid": "92eeef5d-43b5-1d4a-8d03-b3927a09034b",
+  "displayName": "Veto",
+  "description": "Empowered by an unstoppable DNA mutation, Senegalese enforcer Veto defies the rules of engagement by nullifying his opponent's powers and technology. On Veto's battlefield, gunplay is your only guarantee.",
+  "developerName": "Pine",
+  "releaseDate": "2025-10-07T22:00:00Z",
+  "characterTags": null,
+  "isPlayableCharacter": true,
+  "isAvailableForTest": false,
+  "isBaseContent": false,
+  "role": "Sentinel",
+  "recruitmentData": {
+    "counterId": "92eeef5d-43b5-1d4a-8d03-b3927a09034b",
+    "milestoneId": "e285965f-4bfe-d4c5-0b66-8da49200acf7",
+    "milestoneThreshold": 200000,
+    "useLevelVpCostOverride": false,
+    "levelVpCostOverride": 0,
+    "startDate": "2025-10-07T18:00:00Z",
+    "endDate": "2025-11-04T22:00:00Z"
+  },
+  "abilities": [
+    {
+      "slot": "Ability2",
+      "displayName": "Interceptor",
+      "description": "EQUIP the Interceptor. FIRE to place the Interceptor at projected location. Once placed, RE-USE to activate. Once active, it will destroy any utility that would BOUNCE off a player and/or be destroyed naturally by gunfire. Enemies can destroy the Interceptor."
+    },
+    {
+      "slot": "Grenade",
+      "displayName": "Crosscut",
+      "description": "EQUIP a vortex. FIRE to place on the ground. While in range and looking at the vortex, ACTIVATE to teleport to the vortex. During the BUY PHASE, the vortex can be reclaimed to be REDEPLOYED."
+    },
+    {
+      "slot": "Ultimate",
+      "displayName": "Evolution",
+      "description": "INSTANTLY begin to fully mutate, gaining a combat stim, regeneration, and becoming IMMUNE to all forms of debuffs."
+    },
+    {
+      "slot": "Ability1",
+      "displayName": "Chokehold",
+      "description": "EQUIP a viscous fragment of your mutation. FIRE to throw. The fragment deploys upon hitting the ground, creating a trap to hold enemies in place. Held enemies are Deafened, and Decayed. Enemies can destroy the trap before activation."
+    }
+  ]
+}

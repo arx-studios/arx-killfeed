@@ -1,0 +1,35 @@
+{
+  "uuid": "b1b9086d-41bd-a516-5d29-e3b34a6f1644",
+  "displayName": "Regen Shield",
+  "description": "Absorbs 100% of total damage taken. Regenerates after it has absorbed damage. Has a total regeneration pool of 50.",
+  "descriptions": [
+    "Absorbs 100% of total damage taken. Regenerates after it has absorbed damage. Has a total regeneration pool of 50."
+  ],
+  "details": [
+    {
+      "name": "DAMAGE REDUCTION",
+      "value": "Full"
+    },
+    {
+      "name": "DAMAGE ABSORBED",
+      "value": "100%"
+    },
+    {
+      "name": "REGENERATION POOL",
+      "value": "50"
+    }
+  ],
+  "assetPath": "ShooterGame/Content/Gear/PlasmaArmor/PlasmaArmor_PrimaryAsset",
+  "shopData": {
+    "cost": 650,
+    "category": "Armor",
+    "shopOrderPriority": 0,
+    "categoryText": "Shields",
+    "gridPosition": null,
+    "canBeTrashed": false,
+    "image": null,
+    "newImage": "https://media.valorant-api.com/gear/b1b9086d-41bd-a516-5d29-e3b34a6f1644/shop/newimage.png",
+    "newImage2": null,
+    "assetPath": "ShooterGame/Content/Gear/PlasmaArmor/PlasmaArmorPurchasable"
+  }
+}

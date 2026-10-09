@@ -1,0 +1,14 @@
+{
+  "uuid": "dd3a1cd9-41b1-50ea-3bd6-a7bb3c5978bd",
+  "displayName": "Gauntlet",
+  "narrativeDescription": null,
+  "tacticalDescription": null,
+  "coordinates": null,
+  "assetPath": "ShooterGame/Content/Maps/AbilityDraft/ADraft_PrimaryAsset",
+  "mapUrl": "/Game/Maps/AbilityDraft/AbilityDraft",
+  "xMultiplier": 0,
+  "yMultiplier": 0,
+  "xScalarToAdd": 0,
+  "yScalarToAdd": 0,
+  "callouts": null
+}

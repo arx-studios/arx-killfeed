@@ -1,0 +1,14 @@
+{
+  "uuid": "a38a3f9a-4042-844c-8970-a3ac2f7ce93d",
+  "displayName": "Skirmish B",
+  "narrativeDescription": null,
+  "tacticalDescription": null,
+  "coordinates": null,
+  "assetPath": "ShooterGame/Content/Maps/Duel/Duel_2/Skirmish_2_PrimaryAsset",
+  "mapUrl": "/Game/Maps/Duel/Duel_2/Skirmish_B",
+  "xMultiplier": 0,
+  "yMultiplier": 0,
+  "xScalarToAdd": 0,
+  "yScalarToAdd": 0,
+  "callouts": null
+}

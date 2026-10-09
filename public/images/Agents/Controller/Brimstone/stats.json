@@ -1,0 +1,38 @@
+{
+  "uuid": "9f0d8ba9-4140-b941-57d3-a7ad57c6b417",
+  "displayName": "Brimstone",
+  "description": "Joining from the U.S.A., Brimstone's orbital arsenal ensures his squad always has the advantage. His ability to deliver utility precisely and safely make him the unmatched boots-on-the-ground commander.",
+  "developerName": "Sarge",
+  "releaseDate": "1970-01-01T00:00:00Z",
+  "characterTags": [
+    "Vision Control",
+    "Area Damage"
+  ],
+  "isPlayableCharacter": true,
+  "isAvailableForTest": true,
+  "isBaseContent": true,
+  "role": "Controller",
+  "recruitmentData": null,
+  "abilities": [
+    {
+      "slot": "Grenade",
+      "displayName": "Stim Beacon",
+      "description": "INSTANTLY toss down a stim beacon. Upon landing, it creates a field that grants players a Combat Stim and a Speed Boost."
+    },
+    {
+      "slot": "Ability1",
+      "displayName": "Incendiary",
+      "description": "EQUIP an incendiary grenade launcher. FIRE to launch a grenade that detonates as it comes to a rest on the floor, creating a lingering fire zone that damages players within the zone."
+    },
+    {
+      "slot": "Ability2",
+      "displayName": "Sky Smoke",
+      "description": "EQUIP a tactical map. FIRE to set locations where Brimstone's smoke clouds will land. ALT FIRE to confirm, launching long-lasting smoke clouds that block vision in the selected area."
+    },
+    {
+      "slot": "Ultimate",
+      "displayName": "Orbital Strike",
+      "description": "EQUIP a tactical map. FIRE to launch a lingering orbital strike laser at the selected location, dealing high damage-over-time to players caught in the selected area."
+    }
+  ]
+}

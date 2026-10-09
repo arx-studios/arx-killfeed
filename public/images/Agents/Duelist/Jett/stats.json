@@ -1,0 +1,43 @@
+{
+  "uuid": "add6443a-41bd-e414-f6ad-e58d267f4e95",
+  "displayName": "Jett",
+  "description": "Representing her home country of South Korea, Jett's agile and evasive fighting style lets her take risks no one else can. She runs circles around every skirmish, cutting enemies up before they even know what hit them.",
+  "developerName": "Wushu",
+  "releaseDate": "1970-01-01T00:00:00Z",
+  "characterTags": [
+    "Evasion",
+    "Mobility"
+  ],
+  "isPlayableCharacter": true,
+  "isAvailableForTest": true,
+  "isBaseContent": true,
+  "role": "Duelist",
+  "recruitmentData": null,
+  "abilities": [
+    {
+      "slot": "Ability1",
+      "displayName": "Updraft",
+      "description": "INSTANTLY propel Jett high into the air."
+    },
+    {
+      "slot": "Ability2",
+      "displayName": "Tailwind",
+      "description": "ACTIVATE to prepare a gust of wind for a limited time. RE-USE the wind to propel Jett in the direction she is moving. If Jett is standing still, she propels forward. Tailwind charge resets every two kills."
+    },
+    {
+      "slot": "Grenade",
+      "displayName": "Cloudburst",
+      "description": "INSTANTLY throw a projectile that expands into a brief vision-blocking cloud on impact with a surface. HOLD the ability key to curve the smoke in the direction of your crosshair."
+    },
+    {
+      "slot": "Ultimate",
+      "displayName": "Blade Storm",
+      "description": "EQUIP a set of highly accurate throwing knives. FIRE to throw a single knife and recharge knives on a kill. ALT FIRE to throw all remaining daggers but does not recharge on a kill."
+    },
+    {
+      "slot": "Passive",
+      "displayName": "Drift",
+      "description": "Holding the jump button while falling allows you to glide through the air."
+    }
+  ]
+}

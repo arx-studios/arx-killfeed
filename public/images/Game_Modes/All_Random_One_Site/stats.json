@@ -1,0 +1,42 @@
+{
+  "uuid": "1cd8901f-47af-49cb-d758-e2afd0eb2a39",
+  "displayName": "All Random One Site",
+  "description": "LIMITED TIME: Plant/defuse mode. One site, random agents, free loadouts, way more ultimates. First to 5 wins.",
+  "duration": "10-15 MINS",
+  "customTimerLabel": null,
+  "customVictoryMessage": null,
+  "customDefeatMessage": null,
+  "economyType": null,
+  "allowsMatchTimeouts": false,
+  "allowsCustomGameReplays": false,
+  "isTeamVoiceAllowed": true,
+  "isMinimapHidden": false,
+  "orbCount": 1,
+  "roundsPerHalf": -1,
+  "teamRoles": null,
+  "gameFeatureOverrides": [
+    {
+      "featureName": "EGameFeatureToggleName::EquippableCacheRecycling",
+      "state": true
+    }
+  ],
+  "gameRuleBoolOverrides": [
+    {
+      "ruleName": "EGameRuleBoolName::AssignRandomAgents",
+      "state": true
+    },
+    {
+      "ruleName": "EGameRuleBoolName::SkipPregame",
+      "state": true
+    },
+    {
+      "ruleName": "EGameRuleBoolName::AllowUnownedAgents",
+      "state": true
+    },
+    {
+      "ruleName": "EGameRuleBoolName::UseAllAbilityCooldowns",
+      "state": true
+    }
+  ],
+  "assetPath": "ShooterGame/Content/GameModes/AROS/AROS_GameMode_PrimaryAsset"
+}

@@ -1,0 +1,43 @@
+{
+  "uuid": "0e38b510-41a8-5780-5e8f-568b2a4f2d6c",
+  "displayName": "Iso",
+  "description": "Chinese fixer for hire Iso falls into a flow state to dismantle the opposition. Reconfiguring ambient energy into bulletproof protection, he advances with focus towards his next duel to the death.",
+  "developerName": "Sequoia",
+  "releaseDate": "1970-01-01T00:00:00Z",
+  "characterTags": null,
+  "isPlayableCharacter": true,
+  "isAvailableForTest": false,
+  "isBaseContent": false,
+  "role": "Duelist",
+  "recruitmentData": {
+    "counterId": "23012172-4c2f-13cf-f70c-d584a8050cba",
+    "milestoneId": "c4c1c4eb-4fb0-8a33-9cbe-1d902363d698",
+    "milestoneThreshold": 200000,
+    "useLevelVpCostOverride": false,
+    "levelVpCostOverride": 0,
+    "startDate": "2023-10-31T13:00:00Z",
+    "endDate": "2023-11-29T22:00:00Z"
+  },
+  "abilities": [
+    {
+      "slot": "Ability1",
+      "displayName": "Undercut",
+      "description": "EQUIP a molecular bolt. FIRE to throw it forward, briefly applying Vulnerable & Suppress to all players it touches. The bolt can pass through solid objects, including walls."
+    },
+    {
+      "slot": "Ultimate",
+      "displayName": "Kill Contract",
+      "description": "EQUIP an interdimensional arena. FIRE to hurl a column of energy through the battlefield, pulling and healing both you and the first enemy hit into the arena to duel to the death."
+    },
+    {
+      "slot": "Ability2",
+      "displayName": "Double Tap",
+      "description": "INSTANTLY start channeling your focus. Once focused: gain a shield which absorbs one instance of damage from any source, reload more quickly, and enter a flow state during which downed enemies you kill or damage spawn an energy orb. Shooting this orb refreshes your flow state and your existing shield, or grants another."
+    },
+    {
+      "slot": "Grenade",
+      "displayName": "Contingency",
+      "description": "EQUIP to assemble prismatic energy. FIRE to push an indestructible wall of energy forward that blocks bullets. ALT FIRE to push out a slower version of the wall."
+    }
+  ]
+}

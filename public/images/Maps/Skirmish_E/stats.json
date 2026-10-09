@@ -1,0 +1,14 @@
+{
+  "uuid": "4490f1d6-4818-bf5f-9b3a-9c9a8dbb52ed",
+  "displayName": "Skirmish E",
+  "narrativeDescription": null,
+  "tacticalDescription": null,
+  "coordinates": null,
+  "assetPath": "ShooterGame/Content/Maps/Duel/Duel_Heady/Duel_Heady_PrimaryAsset",
+  "mapUrl": "/Game/Maps/Duel/Duel_Heady/Skirmish_E",
+  "xMultiplier": 0,
+  "yMultiplier": 0,
+  "xScalarToAdd": 0,
+  "yScalarToAdd": 0,
+  "callouts": null
+}

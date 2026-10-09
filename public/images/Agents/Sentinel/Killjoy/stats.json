@@ -1,0 +1,38 @@
+{
+  "uuid": "1e58de9c-4950-5125-93e9-a0aee9f98746",
+  "displayName": "Killjoy",
+  "description": "The genius of Germany, Killjoy effortlessly secures key battlefield positions with her arsenal of inventions. If their damage doesn't take her enemies out, the debuff her robots provide will make short work of them.",
+  "developerName": "Killjoy",
+  "releaseDate": "1970-01-01T00:00:00Z",
+  "characterTags": [
+    "Defensive Lockdown",
+    "Area Damage"
+  ],
+  "isPlayableCharacter": true,
+  "isAvailableForTest": true,
+  "isBaseContent": false,
+  "role": "Sentinel",
+  "recruitmentData": null,
+  "abilities": [
+    {
+      "slot": "Grenade",
+      "displayName": "Nanoswarm",
+      "description": "EQUIP a Nanoswarm grenade. FIRE to throw the grenade. Upon landing, the Nanoswarm goes covert. ALT FIRE to lob. ACTIVATE the Nanoswarm to deploy a damaging swarm of nanobots.  "
+    },
+    {
+      "slot": "Ability1",
+      "displayName": "ALARMBOT",
+      "description": "EQUIP a covert Alarmbot. FIRE to deploy a bot that hunts down enemies that get in range.  After reaching its target, the bot explodes and applies Vulnerable to enemies in the area. HOLD EQUIP to recall a deployed bot."
+    },
+    {
+      "slot": "Ability2",
+      "displayName": "TURRET",
+      "description": "EQUIP a Turret. FIRE to deploy a turret that fires at enemies in a 100 degree cone. While targeting, EQUIP again to swap turret direction, HOLD ALT FIRE to rotate. HOLD EQUIP to recall the deployed turret."
+    },
+    {
+      "slot": "Ultimate",
+      "displayName": "Lockdown",
+      "description": "EQUIP the Lockdown device. FIRE to deploy the device. After a long windup, the device Detains all enemies caught in the radius. The device can be destroyed by enemies."
+    }
+  ]
+}

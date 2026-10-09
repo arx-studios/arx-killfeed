@@ -1,0 +1,25 @@
+{
+  "uuid": "e921d1e6-416b-c31f-1291-74930c330b7b",
+  "displayName": "Spike Rush",
+  "description": "Plant/defuse mode. Random weapons, powerup orbs, five spikes, shorter rounds. First to 4 wins.",
+  "duration": "8-12 MINS",
+  "customTimerLabel": null,
+  "customVictoryMessage": null,
+  "customDefeatMessage": null,
+  "economyType": null,
+  "allowsMatchTimeouts": false,
+  "allowsCustomGameReplays": false,
+  "isTeamVoiceAllowed": true,
+  "isMinimapHidden": false,
+  "orbCount": 1,
+  "roundsPerHalf": 3,
+  "teamRoles": null,
+  "gameFeatureOverrides": null,
+  "gameRuleBoolOverrides": [
+    {
+      "ruleName": "EGameRuleBoolName::AccoladesEnabled",
+      "state": true
+    }
+  ],
+  "assetPath": "ShooterGame/Content/GameModes/QuickBomb/QuickBombGameMode_PrimaryAsset"
+}

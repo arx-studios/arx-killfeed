@@ -1,0 +1,29 @@
+{
+  "uuid": "5d0f264b-4ebe-cc63-c147-809e1374484b",
+  "displayName": "Swiftplay",
+  "description": "Plant/defuse mode. Quicker matches, same core rules, same objectives, accelerated economy. First to 5 wins.",
+  "duration": "10-15 MIN",
+  "customTimerLabel": null,
+  "customVictoryMessage": null,
+  "customDefeatMessage": null,
+  "economyType": null,
+  "allowsMatchTimeouts": false,
+  "allowsCustomGameReplays": true,
+  "isTeamVoiceAllowed": true,
+  "isMinimapHidden": false,
+  "orbCount": 1,
+  "roundsPerHalf": 4,
+  "teamRoles": null,
+  "gameFeatureOverrides": null,
+  "gameRuleBoolOverrides": [
+    {
+      "ruleName": "EGameRuleBoolName::IsOvertimeWinByTwo",
+      "state": false
+    },
+    {
+      "ruleName": "EGameRuleBoolName::AccoladesEnabled",
+      "state": true
+    }
+  ],
+  "assetPath": "ShooterGame/Content/GameModes/_Development/Swiftplay_EndOfRoundCredits/SwiftPlay_GameMode_PrimaryAsset"
+}

@@ -1,0 +1,43 @@
+{
+  "uuid": "2b470a47-40e0-ad02-73b4-7f8585fa108c",
+  "displayName": "Basic Training",
+  "description": "Replay the tutorial!",
+  "duration": null,
+  "customTimerLabel": null,
+  "customVictoryMessage": null,
+  "customDefeatMessage": null,
+  "economyType": null,
+  "allowsMatchTimeouts": false,
+  "allowsCustomGameReplays": false,
+  "isTeamVoiceAllowed": true,
+  "isMinimapHidden": true,
+  "orbCount": 1,
+  "roundsPerHalf": -1,
+  "teamRoles": null,
+  "gameFeatureOverrides": [
+    {
+      "featureName": "EGameFeatureToggleName::RemoveDeletedFXCsFromPool",
+      "state": true
+    }
+  ],
+  "gameRuleBoolOverrides": [
+    {
+      "ruleName": "EGameRuleBoolName::SkipPregame",
+      "state": true
+    },
+    {
+      "ruleName": "EGameRuleBoolName::AssignRandomAgents",
+      "state": true
+    },
+    {
+      "ruleName": "EGameRuleBoolName::DisableShopSelling",
+      "state": true
+    },
+    {
+      "ruleName": "EGameRuleBoolName::CombatReportOnlyShowLastLife",
+      "state": true
+    }
+  ],
+  "displayIcon": null,
+  "assetPath": "ShooterGame/Content/GameModes/NPEV2/NPEV2_GameMode_PrimaryAsset"
+}

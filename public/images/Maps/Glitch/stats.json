@@ -1,0 +1,14 @@
+{
+  "uuid": "d6336a5a-428f-c591-98db-c8a291159134",
+  "displayName": "Glitch",
+  "narrativeDescription": null,
+  "tacticalDescription": null,
+  "coordinates": null,
+  "assetPath": "ShooterGame/Content/Maps/HURM/HURM_HighTide/HURM_HighTide_PrimaryAsset",
+  "mapUrl": "/Game/Maps/HURM/HURM_HighTide/HURM_HighTide",
+  "xMultiplier": 0,
+  "yMultiplier": 0,
+  "xScalarToAdd": 0,
+  "yScalarToAdd": 0,
+  "callouts": null
+}

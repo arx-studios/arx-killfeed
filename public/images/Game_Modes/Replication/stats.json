@@ -1,0 +1,29 @@
+{
+  "uuid": "4744698a-4513-dc96-9c22-a9aa437e4a58",
+  "displayName": "Replication",
+  "description": "Same rules as unrated, but all players on the same team are the same agent. Set credits per round, first to 5 rounds wins.",
+  "duration": "10-15 MINS",
+  "customTimerLabel": null,
+  "customVictoryMessage": null,
+  "customDefeatMessage": null,
+  "economyType": null,
+  "allowsMatchTimeouts": false,
+  "allowsCustomGameReplays": false,
+  "isTeamVoiceAllowed": true,
+  "isMinimapHidden": false,
+  "orbCount": 1,
+  "roundsPerHalf": 4,
+  "teamRoles": null,
+  "gameFeatureOverrides": null,
+  "gameRuleBoolOverrides": [
+    {
+      "ruleName": "EGameRuleBoolName::MajorityVoteAgents",
+      "state": true
+    },
+    {
+      "ruleName": "EGameRuleBoolName::IsOvertimeWinByTwo",
+      "state": false
+    }
+  ],
+  "assetPath": "ShooterGame/Content/GameModes/OneForAll/OneForAll_GameMode_DataAsset_Desktop"
+}

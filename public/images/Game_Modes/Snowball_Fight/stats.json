@@ -1,0 +1,41 @@
+{
+  "uuid": "57038d6d-49b1-3a74-c5ef-3395d9f23a97",
+  "displayName": "Snowball Fight",
+  "description": "Launch snowballs, open presents, and ice skate in this fast festive 5v5 team deathmatch. No abilities, first to 50 kills wins.",
+  "duration": "5-7 MINS",
+  "customTimerLabel": null,
+  "customVictoryMessage": null,
+  "customDefeatMessage": null,
+  "economyType": null,
+  "allowsMatchTimeouts": false,
+  "allowsCustomGameReplays": false,
+  "isTeamVoiceAllowed": true,
+  "isMinimapHidden": false,
+  "orbCount": 1,
+  "roundsPerHalf": -1,
+  "teamRoles": [
+    "EAresTeamRole::Attacker",
+    "EAresTeamRole::Defender"
+  ],
+  "gameFeatureOverrides": [
+    {
+      "featureName": "EGameFeatureToggleName::DeathmatchEncourageFarSpawning",
+      "state": false
+    }
+  ],
+  "gameRuleBoolOverrides": [
+    {
+      "ruleName": "EGameRuleBoolName::AssignRandomAgents",
+      "state": true
+    },
+    {
+      "ruleName": "EGameRuleBoolName::SkipPregame",
+      "state": true
+    },
+    {
+      "ruleName": "EGameRuleBoolName::CombatReportOnlyShowLastLife",
+      "state": true
+    }
+  ],
+  "assetPath": "ShooterGame/Content/GameModes/SnowballFight/SnowballFightGameMode_PrimaryAsset"
+}

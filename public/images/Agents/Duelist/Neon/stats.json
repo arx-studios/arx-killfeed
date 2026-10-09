@@ -1,0 +1,35 @@
+{
+  "uuid": "bb2a4828-46eb-8cd1-e765-15848195d751",
+  "displayName": "Neon",
+  "description": "Filipino Agent Neon surges forward at shocking speeds, discharging bursts of bioelectric radiance as fast as her body generates it. She races ahead to catch enemies off guard then strikes them down quicker than lightning.",
+  "developerName": "Sprinter",
+  "releaseDate": "1970-01-01T00:00:00Z",
+  "characterTags": null,
+  "isPlayableCharacter": true,
+  "isAvailableForTest": true,
+  "isBaseContent": false,
+  "role": "Duelist",
+  "recruitmentData": null,
+  "abilities": [
+    {
+      "slot": "Ability2",
+      "displayName": "High Gear",
+      "description": "INSTANTLY channel Neon’s power for Increased Speed. When charged, ALT FIRE to trigger an electric slide dash. Slide charge resets every two kills."
+    },
+    {
+      "slot": "Ability1",
+      "displayName": "Relay Bolt",
+      "description": "INSTANTLY throw an energy bolt that bounces once. Upon hitting each surface, the bolt electrifies the ground below with a Concussive blast."
+    },
+    {
+      "slot": "Grenade",
+      "displayName": "Fast Lane",
+      "description": "FIRE two energy lines forward on the ground that extend a short distance or until they hit a surface. The lines rise into walls of static electricity that block vision."
+    },
+    {
+      "slot": "Ultimate",
+      "displayName": "Overdrive",
+      "description": "Unleash Neon’s full power and speed for a short duration, regaining all her fuel and a slide charge. FIRE to channel the power into a deadly lightning beam with high movement accuracy. Kills reset the duration of the effect. "
+    }
+  ]
+}

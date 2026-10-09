@@ -1,0 +1,25 @@
+{
+  "uuid": "e2dc3878-4fe5-d132-28f8-3d8c259efcc6",
+  "displayName": "The Range",
+  "description": "Warm up with all weapons and agents unlocked!",
+  "duration": null,
+  "customTimerLabel": null,
+  "customVictoryMessage": null,
+  "customDefeatMessage": null,
+  "economyType": null,
+  "allowsMatchTimeouts": false,
+  "allowsCustomGameReplays": false,
+  "isTeamVoiceAllowed": true,
+  "isMinimapHidden": true,
+  "orbCount": 1,
+  "roundsPerHalf": -1,
+  "teamRoles": null,
+  "gameFeatureOverrides": null,
+  "gameRuleBoolOverrides": [
+    {
+      "ruleName": "EGameRuleBoolName::ContextAwareModuleEnabled",
+      "state": true
+    }
+  ],
+  "assetPath": "ShooterGame/Content/GameModes/ShootingRange/ShootingRangeGameMode_PrimaryAsset"
+}

@@ -1,0 +1,10 @@
+{
+  "uuid": "411e4a55-4e59-7757-41f0-86a53f101bb5",
+  "displayName": "Ultra Edition",
+  "devName": "Ultra",
+  "rank": 4,
+  "juiceValue": 50,
+  "juiceCost": 160,
+  "highlightColor": "fad66333",
+  "assetPath": "ShooterGame/Content/ContentTiers/Ultra_PrimaryAsset"
+}

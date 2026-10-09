@@ -1,0 +1,43 @@
+{
+  "uuid": "b444168c-4e35-8076-db47-ef9bf368f384",
+  "displayName": "Tejo",
+  "description": "A veteran intelligence consultant from Colombia, Tejo’s ballistic guidance system pressures the enemy to relinquish their ground - or their lives. His targeted strikes keep opponents off balance and under his heel.",
+  "developerName": "Cashew",
+  "releaseDate": "2025-01-08T22:00:00Z",
+  "characterTags": null,
+  "isPlayableCharacter": true,
+  "isAvailableForTest": false,
+  "isBaseContent": false,
+  "role": "Initiator",
+  "recruitmentData": {
+    "counterId": "b444168c-4e35-8076-db47-ef9bf368f384",
+    "milestoneId": "8a4cead3-4885-ee5b-5cce-808c0f12937f",
+    "milestoneThreshold": 200000,
+    "useLevelVpCostOverride": false,
+    "levelVpCostOverride": 0,
+    "startDate": "2025-01-08T22:00:00Z",
+    "endDate": "2025-02-05T22:00:00Z"
+  },
+  "abilities": [
+    {
+      "slot": "Ability2",
+      "displayName": "Guided Salvo",
+      "description": "EQUIP an AR targeting system. FIRE to select up to two target locations on the map. ALT FIRE to launch missiles that autonomously navigate to target locations, detonating repeatedly for damage on arrival."
+    },
+    {
+      "slot": "Ability1",
+      "displayName": "Special Delivery",
+      "description": "EQUIP a sticky grenade. FIRE to launch. The grenade sticks to the first surface it hits and explodes, Concussing and dealing damage to any targets caught in the blast. ALT FIRE to launch the grenade with a single bounce instead."
+    },
+    {
+      "slot": "Ultimate",
+      "displayName": "Armageddon",
+      "description": "EQUIP a tactical strike targeting map. FIRE to select the origin point of the strike. FIRE again to set the end point and launch the attack, unleashing a wave of lethal damaging explosions along the strike path. ALT FIRE during map targeting to cancel the origin point."
+    },
+    {
+      "slot": "Grenade",
+      "displayName": "Stealth Drone",
+      "description": "EQUIP a stealth drone. FIRE to throw the drone forward, assuming direct control of its movement. FIRE again to trigger a pulse that Suppresses and Reveals enemies hit."
+    }
+  ]
+}

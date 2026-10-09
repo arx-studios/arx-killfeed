@@ -1,0 +1,33 @@
+{
+  "uuid": "d2d0f229-4514-517a-b10a-aaa0ef0d4a67",
+  "displayName": "Bot Match",
+  "description": null,
+  "duration": null,
+  "customTimerLabel": null,
+  "customVictoryMessage": null,
+  "customDefeatMessage": null,
+  "economyType": null,
+  "allowsMatchTimeouts": false,
+  "allowsCustomGameReplays": false,
+  "isTeamVoiceAllowed": true,
+  "isMinimapHidden": false,
+  "orbCount": 1,
+  "roundsPerHalf": 4,
+  "teamRoles": null,
+  "gameFeatureOverrides": null,
+  "gameRuleBoolOverrides": [
+    {
+      "ruleName": "EGameRuleBoolName::FillWithBots",
+      "state": true
+    },
+    {
+      "ruleName": "EGameRuleBoolName::ContextAwareModuleEnabled",
+      "state": false
+    },
+    {
+      "ruleName": "EGameRuleBoolName::AllowDropOut",
+      "state": true
+    }
+  ],
+  "assetPath": "ShooterGame/Content/GameModes/ExamplePlayerTestBot/BotTrainingMatch_GameMode_PrimaryAsset"
+}

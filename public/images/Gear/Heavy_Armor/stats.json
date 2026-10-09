@@ -1,0 +1,31 @@
+{
+  "uuid": "822bcab2-40a2-324e-c137-e09195ad7692",
+  "displayName": "Heavy Armor",
+  "description": "Absorbs 66% of total damage taken. Breaks after it has absorbed 50 damage.",
+  "descriptions": [
+    "Absorbs 66% of total damage taken. Breaks after it has absorbed 50 damage."
+  ],
+  "details": [
+    {
+      "name": "DAMAGE REDUCTION",
+      "value": "Partial"
+    },
+    {
+      "name": "DAMAGE ABSORBED",
+      "value": "66%"
+    }
+  ],
+  "assetPath": "ShooterGame/Content/Gear/HeavyArmor_PrimaryAsset",
+  "shopData": {
+    "cost": 1000,
+    "category": "Armor",
+    "shopOrderPriority": 0,
+    "categoryText": "Shields",
+    "gridPosition": null,
+    "canBeTrashed": false,
+    "image": null,
+    "newImage": "https://media.valorant-api.com/gear/822bcab2-40a2-324e-c137-e09195ad7692/shop/newimage.png",
+    "newImage2": null,
+    "assetPath": "ShooterGame/Content/Gear/HeavyArmorPurchasable"
+  }
+}

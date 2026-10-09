@@ -1,0 +1,43 @@
+{
+  "uuid": "eb93336a-449b-9c1b-0a54-a891f7921d69",
+  "displayName": "Phoenix",
+  "description": "Hailing from the U.K., Phoenix's star power shines through in his fighting style, igniting the battlefield with flash and flare. Whether he's got backup or not, he's rushing in to fight on his own terms.",
+  "developerName": "Phoenix",
+  "releaseDate": "1970-01-01T00:00:00Z",
+  "characterTags": [
+    "Flexibility",
+    "Self-Sustain"
+  ],
+  "isPlayableCharacter": true,
+  "isAvailableForTest": true,
+  "isBaseContent": true,
+  "role": "Duelist",
+  "recruitmentData": null,
+  "abilities": [
+    {
+      "slot": "Grenade",
+      "displayName": "Blaze",
+      "description": "EQUIP a flame wall. FIRE to create a line of flame that moves forward, passing through the world and creating a wall of fire that blocks vision and damages players passing through it. The fire wall heals Phoenix instead of dealing damage. HOLD FIRE to bend the wall in the direction of your crosshair."
+    },
+    {
+      "slot": "Ability1",
+      "displayName": "Hot Hands",
+      "description": "EQUIP a fireball. FIRE to throw a fireball that explodes after a set amount of time or upon hitting the ground, creating a lingering fire zone that damages enemies. The fire zone heals Phoenix instead of dealing damage. ALT FIRE to lob."
+    },
+    {
+      "slot": "Ability2",
+      "displayName": "Curveball",
+      "description": "EQUIP a flare orb that takes a curving path and detonates shortly after throwing. FIRE to curve the flare orb to the left, detonating and Blinding any player who sees the orb. ALT FIRE to curve the flare orb to the right. Curveball resets a charge every two kills."
+    },
+    {
+      "slot": "Ultimate",
+      "displayName": "Run it Back",
+      "description": "INSTANTLY place a marker at Phoenix's location. While this ability is active, dying or allowing the timer to expire will end this ability and bring Phoenix back to this location with full health and the amount of armor he had when the ability was cast."
+    },
+    {
+      "slot": "Passive",
+      "displayName": "Heating Up",
+      "description": "PASSIVELY Heal Phoenix instead of taking damage after standing in Phoenix's own fire"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "uuid": "d08c45fe-4415-edcf-65a3-45885cc4349b",
+  "displayName": "Skirmish: Ascension",
+  "description": "Fast elimination battles on small-scale maps, customizable with cheats. First to 10 rounds wins.",
+  "duration": "5-10 MINS",
+  "customTimerLabel": "OVERTIME",
+  "customVictoryMessage": null,
+  "customDefeatMessage": null,
+  "economyType": "EEconomyTypes::Other",
+  "allowsMatchTimeouts": false,
+  "allowsCustomGameReplays": false,
+  "isTeamVoiceAllowed": true,
+  "isMinimapHidden": false,
+  "orbCount": 1,
+  "roundsPerHalf": 0,
+  "teamRoles": null,
+  "gameFeatureOverrides": [
+    {
+      "featureName": "EGameFeatureToggleName::AllowShoppingWhileDead",
+      "state": true
+    }
+  ],
+  "gameRuleBoolOverrides": [
+    {
+      "ruleName": "EGameRuleBoolName::RoundOvertimeEnabled",
+      "state": true
+    },
+    {
+      "ruleName": "EGameRuleBoolName::SkipUltimateAbilityReadyVO",
+      "state": true
+    },
+    {
+      "ruleName": "EGameRuleBoolName::EnablePregameAgentAllowList",
+      "state": true
+    },
+    {
+      "ruleName": "EGameRuleBoolName::AllowUnownedAgents",
+      "state": true
+    }
+  ],
+  "assetPath": "ShooterGame/Content/GameModes/SkirmishAscension/SkirmishAscensionGameModePrimaryAsset"
+}

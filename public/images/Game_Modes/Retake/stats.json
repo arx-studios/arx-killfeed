@@ -1,0 +1,30 @@
+{
+  "uuid": "75b7b658-472c-0264-cbe6-049abf14f54b",
+  "displayName": "Retake",
+  "description": "LIMITED TIME: Defuse/Protect mode. Pre-planted spike, 3v3 teams, escalating loadouts, randomized ability selection. First to 5 wins.",
+  "duration": "8-12 MINS",
+  "customTimerLabel": null,
+  "customVictoryMessage": null,
+  "customDefeatMessage": null,
+  "economyType": "EEconomyTypes::Other",
+  "allowsMatchTimeouts": false,
+  "allowsCustomGameReplays": false,
+  "isTeamVoiceAllowed": true,
+  "isMinimapHidden": false,
+  "orbCount": 1,
+  "roundsPerHalf": 1,
+  "teamRoles": null,
+  "gameFeatureOverrides": [
+    {
+      "featureName": "EGameFeatureToggleName::FootIK",
+      "state": false
+    }
+  ],
+  "gameRuleBoolOverrides": [
+    {
+      "ruleName": "EGameRuleBoolName::IsOvertimeWinByTwo",
+      "state": true
+    }
+  ],
+  "assetPath": "ShooterGame/Content/GameModes/FortCollins/FortCollins_PrimaryAsset"
+}

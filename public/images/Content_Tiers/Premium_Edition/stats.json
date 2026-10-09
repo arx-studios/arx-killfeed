@@ -1,0 +1,10 @@
+{
+  "uuid": "60bca009-4182-7998-dee7-b8a2558dc369",
+  "displayName": "Premium Edition",
+  "devName": "Premium",
+  "rank": 2,
+  "juiceValue": 30,
+  "juiceCost": 100,
+  "highlightColor": "d1548d33",
+  "assetPath": "ShooterGame/Content/ContentTiers/Premium_PrimaryAsset"
+}

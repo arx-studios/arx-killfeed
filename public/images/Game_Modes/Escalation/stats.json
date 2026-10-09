@@ -1,0 +1,38 @@
+{
+  "uuid": "a4ed6518-4741-6dcb-35bd-f884aecdc859",
+  "displayName": "Escalation",
+  "description": "Elimination mode. Team arsenal, weapon progression, eliminate to advance, race to finish. First to complete wins.",
+  "duration": "7-9 MINS",
+  "customTimerLabel": null,
+  "customVictoryMessage": "You’ve reached the checkpoint",
+  "customDefeatMessage": "Enemies reached the checkpoint",
+  "economyType": "EEconomyTypes::Other",
+  "allowsMatchTimeouts": false,
+  "allowsCustomGameReplays": false,
+  "isTeamVoiceAllowed": true,
+  "isMinimapHidden": false,
+  "orbCount": 1,
+  "roundsPerHalf": -1,
+  "teamRoles": null,
+  "gameFeatureOverrides": [
+    {
+      "featureName": "EGameFeatureToggleName::DeathmatchEncourageFarSpawning",
+      "state": false
+    }
+  ],
+  "gameRuleBoolOverrides": [
+    {
+      "ruleName": "EGameRuleBoolName::AssignRandomAgents",
+      "state": true
+    },
+    {
+      "ruleName": "EGameRuleBoolName::SkipPregame",
+      "state": true
+    },
+    {
+      "ruleName": "EGameRuleBoolName::CombatReportOnlyShowLastLife",
+      "state": true
+    }
+  ],
+  "assetPath": "ShooterGame/Content/GameModes/GunGame/GunGameTeamsGameMode_PrimaryAsset"
+}

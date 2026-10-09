@@ -1,0 +1,10 @@
+{
+  "uuid": "0cebb8be-46d7-c12a-d306-e9907bfc5a25",
+  "displayName": "Deluxe Edition",
+  "devName": "Deluxe",
+  "rank": 1,
+  "juiceValue": 20,
+  "juiceCost": 60,
+  "highlightColor": "00958733",
+  "assetPath": "ShooterGame/Content/ContentTiers/Deluxe_PrimaryAsset"
+}

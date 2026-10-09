@@ -1,0 +1,35 @@
+{
+  "uuid": "601dbbe7-43ce-be57-2a40-4abd24953621",
+  "displayName": "KAY/O",
+  "description": "KAY/O is a machine of war built for a single purpose: neutralizing radiants. His power to Suppress enemy abilities dismantles his opponents' capacity to fight back, securing him and his allies the ultimate edge.",
+  "developerName": "Grenadier",
+  "releaseDate": "1970-01-01T00:00:00Z",
+  "characterTags": null,
+  "isPlayableCharacter": true,
+  "isAvailableForTest": true,
+  "isBaseContent": false,
+  "role": "Initiator",
+  "recruitmentData": null,
+  "abilities": [
+    {
+      "slot": "Grenade",
+      "displayName": "FRAG/ment",
+      "description": "EQUIP an explosive fragment. FIRE to throw. ALT FIRE to lob. The fragment sticks to the floor and explodes multiple times, dealing near lethal damage at the center with each explosion."
+    },
+    {
+      "slot": "Ability1",
+      "displayName": "FLASH/drive",
+      "description": "EQUIP a flash grenade. FIRE to overhand throw. ALT FIRE to lob a weaker version that explodes quickly. The flash grenade explodes after a short fuse, Blinding anyone in line of sight."
+    },
+    {
+      "slot": "Ability2",
+      "displayName": "ZERO/point",
+      "description": "EQUIP a suppression blade. FIRE to throw. The blade sticks to the first surface it hits, winds up, and Suppresses anyone in the radius of the explosion. Enemies can destroy this blade."
+    },
+    {
+      "slot": "Ultimate",
+      "displayName": "NULL/cmd",
+      "description": "INSTANTLY overload with polarized radianite energy that pulses from KAY/O in a massive radius. Enemies hit with pulses are Suppressed for a short duration. While overloaded, KAY/O gains Combat Stim and can be re-stabilized if downed."
+    }
+  ]
+}

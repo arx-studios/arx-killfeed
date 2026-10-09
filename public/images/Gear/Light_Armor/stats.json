@@ -1,0 +1,31 @@
+{
+  "uuid": "4dec83d5-4902-9ab3-bed6-a7a390761157",
+  "displayName": "Light Armor",
+  "description": "Absorbs 66% of total damage taken. Breaks after it has absorbed 25 damage.",
+  "descriptions": [
+    "Absorbs 66% of total damage taken. Breaks after it has absorbed 25 damage."
+  ],
+  "details": [
+    {
+      "name": "DAMAGE REDUCTION",
+      "value": "Partial"
+    },
+    {
+      "name": "DAMAGE ABSORBED",
+      "value": "66%"
+    }
+  ],
+  "assetPath": "ShooterGame/Content/Gear/LightArmor_PrimaryAsset",
+  "shopData": {
+    "cost": 400,
+    "category": "Armor",
+    "shopOrderPriority": 0,
+    "categoryText": "Shields",
+    "gridPosition": null,
+    "canBeTrashed": false,
+    "image": null,
+    "newImage": "https://media.valorant-api.com/gear/4dec83d5-4902-9ab3-bed6-a7a390761157/shop/newimage.png",
+    "newImage2": null,
+    "assetPath": "ShooterGame/Content/Gear/LightArmorPurchasable"
+  }
+}

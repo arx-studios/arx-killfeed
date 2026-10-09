@@ -1,0 +1,14 @@
+{
+  "uuid": "1f10dab3-4294-3827-fa35-c2aa00213cf3",
+  "displayName": "Basic Training",
+  "narrativeDescription": null,
+  "tacticalDescription": null,
+  "coordinates": null,
+  "assetPath": "ShooterGame/Content/Maps/NPEV2/NPEV2_PrimaryAsset",
+  "mapUrl": "/Game/Maps/NPEV2/NPEV2",
+  "xMultiplier": 0,
+  "yMultiplier": 0,
+  "xScalarToAdd": 0,
+  "yScalarToAdd": 0,
+  "callouts": null
+}

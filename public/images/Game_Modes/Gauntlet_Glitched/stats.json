@@ -1,0 +1,66 @@
+{
+  "uuid": "106cc7b7-444a-14e5-4ac6-5eadb9864b67",
+  "displayName": "Gauntlet: Glitched",
+  "description": "16 players. 8 duos. 1 team remains. Pair up, build your agent, and chase the upgrades that glitch into something new.",
+  "duration": "10-15 MINS",
+  "customTimerLabel": null,
+  "customVictoryMessage": null,
+  "customDefeatMessage": null,
+  "economyType": "EEconomyTypes::Other",
+  "allowsMatchTimeouts": true,
+  "allowsCustomGameReplays": false,
+  "isTeamVoiceAllowed": true,
+  "isMinimapHidden": false,
+  "orbCount": 1,
+  "roundsPerHalf": -1,
+  "teamRoles": null,
+  "gameFeatureOverrides": [
+    {
+      "featureName": "EGameFeatureToggleName::DisableFogOfWar",
+      "state": false
+    },
+    {
+      "featureName": "EGameFeatureToggleName::EnableTeamNumber",
+      "state": true
+    },
+    {
+      "featureName": "EGameFeatureToggleName::PlayerInteractionsRespectPlayspace",
+      "state": true
+    },
+    {
+      "featureName": "EGameFeatureToggleName::DynamicPlayspaceCulling",
+      "state": true
+    }
+  ],
+  "gameRuleBoolOverrides": [
+    {
+      "ruleName": "EGameRuleBoolName::UseTeamNumbers",
+      "state": true
+    },
+    {
+      "ruleName": "EGameRuleBoolName::SpectateEnemiesAsAllies",
+      "state": true
+    },
+    {
+      "ruleName": "EGameRuleBoolName::EnableGamePhaseAmbientAudio",
+      "state": true
+    },
+    {
+      "ruleName": "EGameRuleBoolName::EnableVoiceOverAudioOcclusion",
+      "state": true
+    },
+    {
+      "ruleName": "EGameRuleBoolName::SublevelVisibilityCulling",
+      "state": true
+    },
+    {
+      "ruleName": "EGameRuleBoolName::NoValidViewTargetCameraReady",
+      "state": true
+    },
+    {
+      "ruleName": "EGameRuleBoolName::UnequipByOverrideHolsteringBehavior",
+      "state": true
+    }
+  ],
+  "assetPath": "ShooterGame/Content/GameModes/AbilityDraftArena/AbilityDraftArenaGameMode_PrimaryAsset"
+}

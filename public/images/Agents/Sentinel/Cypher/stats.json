@@ -1,0 +1,38 @@
+{
+  "uuid": "117ed9e3-49f3-6512-3ccf-0cada7e3823b",
+  "displayName": "Cypher",
+  "description": "The Moroccan information broker, Cypher is a one-man surveillance network who keeps tabs on the enemy's every move. No secret is safe. No maneuver goes unseen. Cypher is always watching.",
+  "developerName": "Gumshoe",
+  "releaseDate": "1970-01-01T00:00:00Z",
+  "characterTags": [
+    "Detection",
+    "Defensive Lockdown"
+  ],
+  "isPlayableCharacter": true,
+  "isAvailableForTest": true,
+  "isBaseContent": false,
+  "role": "Sentinel",
+  "recruitmentData": null,
+  "abilities": [
+    {
+      "slot": "Ability1",
+      "displayName": "Cyber Cage",
+      "description": "INSTANTLY toss the cyber cage in front of Cypher. ACTIVATE to create a zone that blocks vision and plays an audio cue when enemies pass through it."
+    },
+    {
+      "slot": "Ability2",
+      "displayName": "Spycam",
+      "description": "EQUIP a spycam. FIRE to place the spycam at the targeted location. RE-USE this ability to take control of the camera's view. While in control of the camera, FIRE to shoot a marking dart. This dart will Reveal the location of any player struck by the dart. This ability can be picked up to be REDEPLOYED."
+    },
+    {
+      "slot": "Grenade",
+      "displayName": "Trapwire",
+      "description": "EQUIP a trapwire. FIRE to place a destructible and covert trapwire at the targeted location, creating a line that spans between the placed location and the wall opposite. Enemy players who cross a trapwire will be Slowed and Revealed after a short period if they do not destroy the device in time. This ability can be picked up to be REDEPLOYED."
+    },
+    {
+      "slot": "Ultimate",
+      "displayName": "Neural Theft",
+      "description": "INSTANTLY use on a targeted dead enemy to download information on their team.  After a brief delay, the location of all living enemy players will be Revealed twice."
+    }
+  ]
+}

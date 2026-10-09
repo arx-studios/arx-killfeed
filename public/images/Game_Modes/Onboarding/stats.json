@@ -1,0 +1,22 @@
+{
+  "uuid": "d2b4e425-4cab-8d95-eb26-bb9b444551dc",
+  "displayName": "Onboarding",
+  "description": null,
+  "duration": null,
+  "customTimerLabel": null,
+  "customVictoryMessage": null,
+  "customDefeatMessage": null,
+  "economyType": null,
+  "allowsMatchTimeouts": false,
+  "allowsCustomGameReplays": false,
+  "isTeamVoiceAllowed": true,
+  "isMinimapHidden": true,
+  "orbCount": 1,
+  "roundsPerHalf": -1,
+  "teamRoles": null,
+  "gameFeatureOverrides": null,
+  "gameRuleBoolOverrides": null,
+  "displayIcon": null,
+  "listViewIconTall": null,
+  "assetPath": "ShooterGame/Content/GameModes/NewPlayerExperience/NPEGameMode_PrimaryAsset"
+}

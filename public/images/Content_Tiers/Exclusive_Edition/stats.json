@@ -1,0 +1,10 @@
+{
+  "uuid": "e046854e-406c-37f4-6607-19a9ba8426fc",
+  "displayName": "Exclusive Edition",
+  "devName": "Exclusive",
+  "rank": 3,
+  "juiceValue": 40,
+  "juiceCost": 140,
+  "highlightColor": "f5955b33",
+  "assetPath": "ShooterGame/Content/ContentTiers/Exclusive_PrimaryAsset"
+}

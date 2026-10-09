@@ -1,0 +1,35 @@
+{
+  "uuid": "dade69b4-4f5a-8528-247b-219e5a1facd6",
+  "displayName": "Fade",
+  "description": "Turkish bounty hunter Fade unleashes the power of raw nightmare to seize enemy secrets. Attuned with terror itself, she hunts down targets and reveals their deepest fears - before crushing them in the dark.",
+  "developerName": "BountyHunter",
+  "releaseDate": "1970-01-01T00:00:00Z",
+  "characterTags": null,
+  "isPlayableCharacter": true,
+  "isAvailableForTest": true,
+  "isBaseContent": false,
+  "role": "Initiator",
+  "recruitmentData": null,
+  "abilities": [
+    {
+      "slot": "Ability1",
+      "displayName": "Seize",
+      "description": "EQUIP a knot of raw fear. FIRE to throw. The knot drops down after a set time. RE-USE to drop the knot early. The knot ruptures on impact, holding nearby enemies in place. Held enemies are Deafened, and Decayed."
+    },
+    {
+      "slot": "Ability2",
+      "displayName": "Haunt",
+      "description": "EQUIP a haunting watcher. FIRE to throw. The watcher drops down after a set time. RE-USE to drop the watcher early. The watcher lashes out on impact, Revealing enemies in its line of sight and creating terror trails to them. Enemies can destroy the watcher."
+    },
+    {
+      "slot": "Grenade",
+      "displayName": "Prowler",
+      "description": "EQUIP a prowler. FIRE to send the prowler forward. HOLD FIRE to steer the prowler towards your crosshair. The prowler will chase down the first enemy or terror trail it sees, and Nearsight the enemy on impact."
+    },
+    {
+      "slot": "Ultimate",
+      "displayName": "Nightfall",
+      "description": "EQUIP the power of nightmare itself. FIRE to unleash a wave of unstoppable nightmare energy. Enemies caught in the wave are Marked by terror trails, Deafened, and Decayed."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "uuid": "95b78ed7-4637-86d9-7e41-71ba8c293152",
+  "displayName": "Harbor",
+  "description": "Hailing from India’s coast, Harbor storms the field wielding ancient technology with dominion over water. He unleashes frothing rapids and crushing waves to shield his allies, or pummel those that oppose him.",
+  "developerName": "Mage",
+  "releaseDate": "1970-01-01T00:00:00Z",
+  "characterTags": null,
+  "isPlayableCharacter": true,
+  "isAvailableForTest": true,
+  "isBaseContent": false,
+  "role": "Controller",
+  "recruitmentData": null,
+  "abilities": [
+    {
+      "slot": "Ability1",
+      "displayName": "High Tide",
+      "description": "EQUIP High Tide. FIRE to send water forward along the ground. HOLD FIRE to guide the water towards your crosshair spawning a vision blocking Screen along the path. ALT FIRE to stop the water early. All players crossing High Tide are Slowed."
+    },
+    {
+      "slot": "Grenade",
+      "displayName": "Storm Surge",
+      "description": "EQUIP Storm Surge. FIRE to throw, creating an explosive whirlpool that Slows and Nearsights players within it after a short duration."
+    },
+    {
+      "slot": "Ability2",
+      "displayName": "Cove",
+      "description": "EQUIP Cove. ACTIVATE to form a water Smoke in the select location. HOLD FIRE while targeting to move the marker further away and HOLD ALT FIRE to move it closer. RELOAD to toggle targeting view. REACTIVATE to Shield the water Smoke, blocking any bullets that hit it. The Shielded water Smoke can be destroyed."
+    },
+    {
+      "slot": "Ultimate",
+      "displayName": "Reckoning",
+      "description": "EQUIP Reckoning. FIRE to unleash the full power of your artifact, releasing a surge of water that barrels forward to Nearsight and Slow enemies that are hit."
+    }
+  ]
+}

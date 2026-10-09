@@ -1,0 +1,35 @@
+{
+  "fireRate": 6.75,
+  "magazineSize": 12,
+  "runSpeedMultiplier": 0.85,
+  "equipTimeSeconds": 0.75,
+  "reloadTimeSeconds": 1.75,
+  "firstBulletAccuracy": 0.4,
+  "shotgunPelletCount": 1,
+  "wallPenetration": "EWallPenetrationDisplayType::Low",
+  "feature": null,
+  "fireMode": "EWeaponFireModeDisplayType::SemiAutomatic",
+  "altFireType": "EWeaponAltFireDisplayType::Shotgun",
+  "adsStats": null,
+  "altShotgunStats": {
+    "shotgunPelletCount": 3,
+    "burstRate": 2.22
+  },
+  "airBurstStats": null,
+  "damageRanges": [
+    {
+      "rangeStartMeters": 0,
+      "rangeEndMeters": 30,
+      "headDamage": 78,
+      "bodyDamage": 26,
+      "legDamage": 22.1
+    },
+    {
+      "rangeStartMeters": 30,
+      "rangeEndMeters": 50,
+      "headDamage": 66,
+      "bodyDamage": 22,
+      "legDamage": 18.7
+    }
+  ]
+}

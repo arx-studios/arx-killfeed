@@ -1,0 +1,38 @@
+{
+  "uuid": "8e253930-4c05-31dd-1b6c-968525494517",
+  "displayName": "Omen",
+  "description": "A phantom of a memory, Omen hunts in the shadows. He renders enemies blind, teleports across the field, then lets paranoia take hold as his foe scrambles to uncover where he might strike next.",
+  "developerName": "Wraith",
+  "releaseDate": "1970-01-01T00:00:00Z",
+  "characterTags": [
+    "Mobility",
+    "Vision Control"
+  ],
+  "isPlayableCharacter": true,
+  "isAvailableForTest": true,
+  "isBaseContent": false,
+  "role": "Controller",
+  "recruitmentData": null,
+  "abilities": [
+    {
+      "slot": "Ability1",
+      "displayName": "Paranoia",
+      "description": "EQUIP a blinding orb.  FIRE to throw it forward, briefly Nearsighting and Deafening all players it touches. This projectile can pass straight through walls."
+    },
+    {
+      "slot": "Ability2",
+      "displayName": "Dark Cover",
+      "description": "EQUIP a shadow orb, entering a phased world to place and target the orbs. PRESS the ability key to throw the shadow orb to the marked location, creating a long-lasting shadow sphere that blocks vision. HOLD FIRE while targeting to move the marker further away. HOLD ALT FIRE while targeting to move the marker closer. PRESS RELOAD to toggle normal targeting view."
+    },
+    {
+      "slot": "Grenade",
+      "displayName": "Shrouded Step",
+      "description": "EQUIP a shrouded step ability and see its range indicator. FIRE to begin a brief channel, then teleport to the marked location."
+    },
+    {
+      "slot": "Ultimate",
+      "displayName": "From the Shadows",
+      "description": "EQUIP a tactical map. FIRE to begin teleporting to the selected location. While teleporting, Omen will appear as a Shade that can be destroyed by an enemy to cancel his teleport, or PRESS EQUIP for Omen to cancel his teleport."
+    }
+  ]
+}

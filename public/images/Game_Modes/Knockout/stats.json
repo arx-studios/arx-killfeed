@@ -1,0 +1,62 @@
+{
+  "uuid": "1a4a3fd5-4966-62cb-7fe4-15b0317f5c80",
+  "displayName": "Knockout",
+  "description": "LIMITED TIME: Elimination mode. Round-based, takedowns revive teammates, push the line, fight together. First to 4 rounds wins.",
+  "duration": "10-15 MINS",
+  "customTimerLabel": null,
+  "customVictoryMessage": null,
+  "customDefeatMessage": null,
+  "economyType": "EEconomyTypes::Other",
+  "allowsMatchTimeouts": true,
+  "allowsCustomGameReplays": false,
+  "isTeamVoiceAllowed": true,
+  "isMinimapHidden": false,
+  "orbCount": 1,
+  "roundsPerHalf": -1,
+  "teamRoles": null,
+  "gameFeatureOverrides": [
+    {
+      "featureName": "EGameFeatureToggleName::DisableFogOfWar",
+      "state": true
+    },
+    {
+      "featureName": "EGameFeatureToggleName::AllowShoppingWhileDead",
+      "state": true
+    },
+    {
+      "featureName": "EGameFeatureToggleName::EquippableCacheRecycling",
+      "state": true
+    },
+    {
+      "featureName": "EGameFeatureToggleName::EnableGamepadVotingUI",
+      "state": false
+    }
+  ],
+  "gameRuleBoolOverrides": [
+    {
+      "ruleName": "EGameRuleBoolName::DestroyAbilitiesOnDeath",
+      "state": true
+    },
+    {
+      "ruleName": "EGameRuleBoolName::CombatReportOnlyShowLastLife",
+      "state": false
+    },
+    {
+      "ruleName": "EGameRuleBoolName::PreventAbilityRecharge",
+      "state": true
+    },
+    {
+      "ruleName": "EGameRuleBoolName::UseAllAbilityCooldowns",
+      "state": true
+    },
+    {
+      "ruleName": "EGameRuleBoolName::DownedCharactersCanGiveUp",
+      "state": true
+    },
+    {
+      "ruleName": "EGameRuleBoolName::AllowAutomaticRemakeVote",
+      "state": false
+    }
+  ],
+  "assetPath": "ShooterGame/Content/GameModes/Dodgeball/Dodgeball_GameMode_PrimaryAsset"
+}

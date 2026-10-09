@@ -1,0 +1,45 @@
+{
+  "fireRate": 13.333,
+  "magazineSize": 30,
+  "runSpeedMultiplier": 0.85,
+  "equipTimeSeconds": 0.75,
+  "reloadTimeSeconds": 2.25,
+  "firstBulletAccuracy": 0.4,
+  "shotgunPelletCount": 1,
+  "wallPenetration": "EWallPenetrationDisplayType::Low",
+  "feature": "EWeaponStatsFeature::Silenced",
+  "fireMode": null,
+  "altFireType": "EWeaponAltFireDisplayType::ADS",
+  "adsStats": {
+    "zoomMultiplier": 1.15,
+    "fireRate": 11.9997,
+    "runSpeedMultiplier": 0.76,
+    "burstCount": 1,
+    "firstBulletAccuracy": 0.25
+  },
+  "altShotgunStats": null,
+  "airBurstStats": null,
+  "damageRanges": [
+    {
+      "rangeStartMeters": 0,
+      "rangeEndMeters": 15,
+      "headDamage": 78,
+      "bodyDamage": 26,
+      "legDamage": 22.1
+    },
+    {
+      "rangeStartMeters": 15,
+      "rangeEndMeters": 30,
+      "headDamage": 66,
+      "bodyDamage": 22,
+      "legDamage": 18.7
+    },
+    {
+      "rangeStartMeters": 30,
+      "rangeEndMeters": 50,
+      "headDamage": 60,
+      "bodyDamage": 20,
+      "legDamage": 17
+    }
+  ]
+}

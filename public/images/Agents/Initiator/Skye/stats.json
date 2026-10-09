@@ -1,0 +1,35 @@
+{
+  "uuid": "6f2a04ca-43e0-be17-7f36-b3908627744d",
+  "displayName": "Skye",
+  "description": "Hailing from Australia, Skye and her band of beasts trailblaze the way through hostile territory. With her creations hampering the enemy, and her power to heal others, the team is strongest and safest by Skye's side.",
+  "developerName": "Guide",
+  "releaseDate": "1970-01-01T00:00:00Z",
+  "characterTags": null,
+  "isPlayableCharacter": true,
+  "isAvailableForTest": true,
+  "isBaseContent": false,
+  "role": "Initiator",
+  "recruitmentData": null,
+  "abilities": [
+    {
+      "slot": "Ability1",
+      "displayName": "Trailblazer",
+      "description": "EQUIP a Tasmanian tiger trinket. FIRE to send out and take control of the predator. While in control, FIRE to leap forward, exploding in a Concussive blast on impact and damaging directly hit enemies."
+    },
+    {
+      "slot": "Ability2",
+      "displayName": "Guiding Light",
+      "description": "EQUIP a hawk trinket. FIRE to send it forward. HOLD FIRE to guide the hawk in the direction of your crosshair. RE-USE while the hawk is in flight to transform it into a flash. The flash reaches max potency after a short duration during the hawk's flight."
+    },
+    {
+      "slot": "Grenade",
+      "displayName": "Regrowth",
+      "description": "EQUIP a healing trinket. HOLD FIRE to channel, Healing allies in range and line of sight. Can be reused until her healing pool is depleted. Skye cannot heal herself."
+    },
+    {
+      "slot": "Ultimate",
+      "displayName": "Seekers",
+      "description": "EQUIP a Seeker trinket. FIRE to send out three Seekers to track down the three closest enemies. If a Seeker reaches its target, it Nearsights and slows them. Enemies can destroy the Seekers."
+    }
+  ]
+}

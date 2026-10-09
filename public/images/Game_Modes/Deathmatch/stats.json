@@ -1,0 +1,40 @@
+{
+  "uuid": "a8790ec5-4237-f2f0-e93b-08a8e89865b2",
+  "displayName": "Deathmatch",
+  "description": "Elimination mode. All gunplay, respawn instantly, no abilities, no economy. First to 40 kills wins.",
+  "duration": "7-9 MINS",
+  "customTimerLabel": null,
+  "customVictoryMessage": null,
+  "customDefeatMessage": null,
+  "economyType": "EEconomyTypes::Other",
+  "allowsMatchTimeouts": false,
+  "allowsCustomGameReplays": false,
+  "isTeamVoiceAllowed": false,
+  "isMinimapHidden": false,
+  "orbCount": 1,
+  "roundsPerHalf": -1,
+  "teamRoles": [
+    "EAresTeamRole::FreeForAll"
+  ],
+  "gameFeatureOverrides": [
+    {
+      "featureName": "EGameFeatureToggleName::AllowShoppingWhileDead",
+      "state": true
+    }
+  ],
+  "gameRuleBoolOverrides": [
+    {
+      "ruleName": "EGameRuleBoolName::CombatReportOnlyShowLastLife",
+      "state": true
+    },
+    {
+      "ruleName": "EGameRuleBoolName::AssignRandomAgents",
+      "state": true
+    },
+    {
+      "ruleName": "EGameRuleBoolName::SkipPregame",
+      "state": true
+    }
+  ],
+  "assetPath": "ShooterGame/Content/GameModes/Deathmatch/DeathmatchGameMode_PrimaryAsset"
+}

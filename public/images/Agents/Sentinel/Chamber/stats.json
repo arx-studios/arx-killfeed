@@ -1,0 +1,35 @@
+{
+  "uuid": "22697a3d-45bf-8dd7-4fec-84a9e28c69d7",
+  "displayName": "Chamber",
+  "description": "Well-dressed and well-armed, French weapons designer Chamber expels aggressors with deadly precision. He leverages his custom arsenal to hold the line and pick off enemies from afar, with a contingency built for every plan.",
+  "developerName": "Deadeye",
+  "releaseDate": "1970-01-01T00:00:00Z",
+  "characterTags": null,
+  "isPlayableCharacter": true,
+  "isAvailableForTest": true,
+  "isBaseContent": false,
+  "role": "Sentinel",
+  "recruitmentData": null,
+  "abilities": [
+    {
+      "slot": "Ability2",
+      "displayName": "Rendezvous",
+      "description": "EQUIP a teleport anchor. FIRE to place it on the ground. While on the ground and in range of the anchor, REACTIVATE to quickly teleport to the anchor. The anchor can be picked up to be REDEPLOYED."
+    },
+    {
+      "slot": "Grenade",
+      "displayName": "Trademark",
+      "description": "EQUIP a trap that scans for enemies. FIRE to place it on the ground. When a visible enemy comes in range, the trap counts down and then destabilizes the terrain around them, creating a lingering field that Slows players caught inside of it. The trap can be picked up to be REDEPLOYED."
+    },
+    {
+      "slot": "Ability1",
+      "displayName": "Headhunter",
+      "description": "ACTIVATE to equip a heavy pistol. ALT FIRE with the pistol equipped to aim down sights."
+    },
+    {
+      "slot": "Ultimate",
+      "displayName": "Tour De Force",
+      "description": "ACTIVATE to summon a powerful, custom sniper rifle that will kill an enemy with any direct hit to the upper body. ALT FIRE to aim down sights. Killing an enemy creates a lingering field that Slows players caught inside of it."
+    }
+  ]
+}

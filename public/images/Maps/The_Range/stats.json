@@ -1,0 +1,14 @@
+{
+  "uuid": "ee613ee9-28b7-4beb-9666-08db13bb2244",
+  "displayName": "The Range",
+  "narrativeDescription": null,
+  "tacticalDescription": null,
+  "coordinates": "45°26'FF'N,12°20'Q'E",
+  "assetPath": "ShooterGame/Content/Maps/Poveglia/Poveglia_PrimaryAsset",
+  "mapUrl": "/Game/Maps/Poveglia/Range",
+  "xMultiplier": 0,
+  "yMultiplier": 0,
+  "xScalarToAdd": 0,
+  "yScalarToAdd": 0,
+  "callouts": null
+}

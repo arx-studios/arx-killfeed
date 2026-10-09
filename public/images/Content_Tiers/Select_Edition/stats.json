@@ -1,0 +1,10 @@
+{
+  "uuid": "12683d76-48d7-84a3-4e09-6985794f0445",
+  "displayName": "Select Edition",
+  "devName": "Select",
+  "rank": 0,
+  "juiceValue": 10,
+  "juiceCost": 30,
+  "highlightColor": "5a9fe233",
+  "assetPath": "ShooterGame/Content/ContentTiers/Select_PrimaryAsset"
+}

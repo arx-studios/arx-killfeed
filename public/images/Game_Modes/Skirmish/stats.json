@@ -1,0 +1,30 @@
+{
+  "uuid": "0e9805d8-4af6-5ffb-f467-55806a6bc484",
+  "displayName": "Skirmish",
+  "description": "Fast elimination battles on small-scale maps, customizable with cheats. First to 10 rounds wins.",
+  "duration": "5-10 MINS",
+  "customTimerLabel": "OVERTIME",
+  "customVictoryMessage": null,
+  "customDefeatMessage": null,
+  "economyType": "EEconomyTypes::Other",
+  "allowsMatchTimeouts": false,
+  "allowsCustomGameReplays": false,
+  "isTeamVoiceAllowed": true,
+  "isMinimapHidden": false,
+  "orbCount": 1,
+  "roundsPerHalf": 0,
+  "teamRoles": null,
+  "gameFeatureOverrides": [
+    {
+      "featureName": "EGameFeatureToggleName::AllowShoppingWhileDead",
+      "state": true
+    }
+  ],
+  "gameRuleBoolOverrides": [
+    {
+      "ruleName": "EGameRuleBoolName::SkipUltimateAbilityReadyVO",
+      "state": true
+    }
+  ],
+  "assetPath": "ShooterGame/Content/GameModes/Skirmish/SkirmishGameMode_PrimaryAsset"
+}

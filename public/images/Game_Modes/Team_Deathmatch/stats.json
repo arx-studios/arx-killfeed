@@ -1,0 +1,66 @@
+{
+  "uuid": "e086db66-47fd-e791-ca81-06a645ac7661",
+  "displayName": "Team Deathmatch",
+  "description": "Elimination mode. Two teams, unique maps, recharging abilities, constant action. First to 100 kills wins.",
+  "duration": "8-10 MINS",
+  "customTimerLabel": null,
+  "customVictoryMessage": null,
+  "customDefeatMessage": null,
+  "economyType": "EEconomyTypes::Other",
+  "allowsMatchTimeouts": false,
+  "allowsCustomGameReplays": false,
+  "isTeamVoiceAllowed": true,
+  "isMinimapHidden": false,
+  "orbCount": 1,
+  "roundsPerHalf": -1,
+  "teamRoles": null,
+  "gameFeatureOverrides": [
+    {
+      "featureName": "EGameFeatureToggleName::AllowShoppingWhileDead",
+      "state": true
+    },
+    {
+      "featureName": "EGameFeatureToggleName::EquippableCacheRecycling",
+      "state": true
+    },
+    {
+      "featureName": "EGameFeatureToggleName::DisableFogOfWar",
+      "state": true
+    }
+  ],
+  "gameRuleBoolOverrides": [
+    {
+      "ruleName": "EGameRuleBoolName::DestroyAbilitiesOnDeath",
+      "state": true
+    },
+    {
+      "ruleName": "EGameRuleBoolName::PipAbilityCasting",
+      "state": false
+    },
+    {
+      "ruleName": "EGameRuleBoolName::CombatReportOnlyShowLastLife",
+      "state": true
+    },
+    {
+      "ruleName": "EGameRuleBoolName::PreventAbilityRecharge",
+      "state": true
+    },
+    {
+      "ruleName": "EGameRuleBoolName::UseAllAbilityCooldowns",
+      "state": true
+    },
+    {
+      "ruleName": "EGameRuleBoolName::DownedCharactersCanGiveUp",
+      "state": true
+    },
+    {
+      "ruleName": "EGameRuleBoolName::UseInDevWeapons",
+      "state": true
+    },
+    {
+      "ruleName": "EGameRuleBoolName::AccoladesEnabled",
+      "state": true
+    }
+  ],
+  "assetPath": "ShooterGame/Content/GameModes/HURM/HURM_PrimaryAsset"
+}

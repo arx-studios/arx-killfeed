@@ -1,0 +1,38 @@
+{
+  "uuid": "a3bfb853-43b2-7238-a4f1-ad90e9e46bcc",
+  "displayName": "Reyna",
+  "description": "Forged in the heart of Mexico, Reyna dominates single combat, popping off with each kill she scores. Her capability is only limited by her raw skill, making her sharply dependent on performance. ",
+  "developerName": "Vampire",
+  "releaseDate": "1970-01-01T00:00:00Z",
+  "characterTags": [
+    "Evasion",
+    "Self-Sustain"
+  ],
+  "isPlayableCharacter": true,
+  "isAvailableForTest": true,
+  "isBaseContent": false,
+  "role": "Duelist",
+  "recruitmentData": null,
+  "abilities": [
+    {
+      "slot": "Ability1",
+      "displayName": "Devour",
+      "description": "Soul Harvest: Enemies that die within 3 seconds of taking damage from Reyna leave behind Soul Orbs that last 3 seconds.\r\nDevour: INSTANTLY consume a soul orb, rapidly gaining Temporary Health. If EMPRESS is active then Devour automatically casts, does not consume the Soul Orb, and Healing is permanent."
+    },
+    {
+      "slot": "Ability2",
+      "displayName": "Dismiss",
+      "description": "INSTANTLY consume a nearby Soul Orb, becoming Intangible for a short duration. If EMPRESS is active, also become Invisible."
+    },
+    {
+      "slot": "Grenade",
+      "displayName": "Leer",
+      "description": "EQUIP an ethereal, destructible eye. ACTIVATE to cast the eye a short distance forward. The eye will Nearsight all enemies who look at it."
+    },
+    {
+      "slot": "Ultimate",
+      "displayName": "Empress",
+      "description": "INSTANTLY enter a frenzy, gaining a Combat Stim that increases firing, equip and reload speed dramatically. Gain infinite charges of Soul Harvest abilities."
+    }
+  ]
+}
