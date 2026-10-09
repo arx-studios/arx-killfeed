@@ -7,7 +7,7 @@ import { agentList, mapList, rankList, section, version, weaponList } from "../l
 import "./globals.css";
 import "./nav.css";
 
-const display = Big_Shoulders({ weight: ["700", "800", "900"], subsets: ["latin"], variable: "--font-display" });
+const display = Big_Shoulders({ weight: ["700", "800", "900"], subsets: ["latin"], variable: "--font-display", adjustFontFallback: false });
 const body = Inter_Tight({ weight: ["400", "500", "600"], subsets: ["latin"], variable: "--font-body" });
 
 export const metadata: Metadata = {

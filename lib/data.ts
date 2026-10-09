@@ -1,9 +1,11 @@
 import fs from "node:fs";
 import path from "node:path";
 
-// The pipeline writes everything under ../images; this reads that tree directly,
-// so re-running the pipeline and rebuilding is all it takes to update the site.
-const IMAGES = path.join(process.cwd(), "..", "images");
+// The pipeline writes everything under ../images; public/images is a junction to it locally
+// and a real (committed) folder on hosts like Vercel, so read through public/ first.
+const pick = (...ps: string[]) => ps.find((p) => fs.existsSync(p)) ?? ps[0];
+const IMAGES = pick(path.join(process.cwd(), "public", "images"), path.join(process.cwd(), "..", "images"));
+const VERSION = pick(path.join(process.cwd(), "public", "version.json"), path.join(process.cwd(), "..", "version.json"));
 
 export type Node = {
   name: string;
@@ -47,7 +49,7 @@ export const section = (name: string): Node[] => all()[name] ?? [];
 
 export function version(): any {
   try {
-    return JSON.parse(fs.readFileSync(path.join(process.cwd(), "..", "version.json"), "utf8")).data;
+    return JSON.parse(fs.readFileSync(VERSION, "utf8")).data;
   } catch {
     return {};
   }
